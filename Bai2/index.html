@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Demo phương thức Get -->
+    <h1>Tìm hiểu Get</h1>
+    <h2>Demo lấy dữ liệu thông qua method Get của HTTP</h2>
+    <form action="http://localhost:8800" method="GET">
+      <input type="text" name="q" placeholder="Nhập chuỗi....." />
+      <button type="submit">Search</button>
+    </form>
+    <!-- Demo phương thức Post -->
+    <h2>Form đăng ký</h2>
+    <form action="http://localhost:8800/signup" method="POST">
+      <label for="name">Username</label>
+      <input type="text" name="Username" id="name" /> <br />
+      <label for="email">Email</label>
+      <input type="email" name="Email" id="email" /> <br />
+      <label for="pass">Password</label>
+      <input type="password" name="Password" id="pass" /> <br />
+      <button type="submit">Sign Up</button>
+    </form>
+  </body>
+</html>
